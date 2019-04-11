@@ -56,6 +56,9 @@ h1 {
   background: #AA0E7B;
 }
 
+#technology{
+  position: relative;
+}
 #submit {
   background: #fd5c63;
   color: #fff;

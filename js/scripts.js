@@ -6,7 +6,7 @@ $('#about-us').on('click', function() {
   $('.introduction').css("background-color", "#F1E8F7");
 });
 
-$('#Submit').on('click', function() {
+$('#submit').on('click', function() {
 	alert('Thank you for join us!');
 });
 
