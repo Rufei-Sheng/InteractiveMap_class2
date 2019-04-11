@@ -10,23 +10,21 @@ $('#about-us').on('click', function() {
 //   // var email = $('#emailInput').val();
 //   $('.outputMessage').html(`Thank you for your interest! We will contact you soon.`);
 // })
-
-$('#ageSubmit').on('click', function() {
-  var age = $('#ageInput').val();
-  age = parseInt(age); // parse a number from the string that was read from the input
-
-  // if age is NaN, show an error, if it is number, add 10 and display a sentence
-  if (isNaN(age)) {
-    // console.log('You did not enter a number!');
-    $('.outputMessage').text('You did not enter a number!!!');
-  } else {
-    var ageInADecade = age + 10;
-    $('.outputMessage').text(`You will be ${ageInADecade} in 10 years 😞`); // template literal
-  }
-
-  console.log('it read this from the input:', age, age.length)
-
+$(document).ready(function() {
+$('.popup-with-zoom-anim').magnificPopup({
+  type: 'inline',
+  fixedContentPos: false,
+  fixedBgPos: true,
+  overflowY: 'auto',
+  closeBtnInside: true,
+  preloader: false,
+  midClick: true,
+  removalDelay: 300,
+  mainClass: 'my-mfp-zoom-in'
 });
+
+
+
 
 // $('#form-group').on('click', function()
 // {
