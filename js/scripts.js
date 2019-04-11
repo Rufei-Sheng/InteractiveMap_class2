@@ -6,8 +6,8 @@ $('#about-us').on('click', function() {
   $('.introduction').css("background-color", "#F1E8F7");
 });
 
-$('#submit').on('click', function(){
-  val email = $('email').val();
+$('#emailInput').on('click', function(){
+  val email = $('emailInput').val();
   if (isNaN(email)) {
     $('.outputMessage').text('Ooooops, you forgot enter!')
   }else{
