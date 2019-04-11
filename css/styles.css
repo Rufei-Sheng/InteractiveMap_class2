@@ -1,11 +1,11 @@
 #title {
   color: #AA0E7B;
   font-family: monospace;
-  font-size: 16px
+  font-size: 40px
 }
 
 .introduction {
-  background-color: #9B1685;
+  background-color: #fff;
   font-size: 20px;
   font-weight: 100;
   font-family: cursive;
@@ -33,6 +33,7 @@ h1 {
 }
 
 
+
 #about-us {
   background: #fd5c63;
   color: #fff;
@@ -55,11 +56,32 @@ h1 {
   background: #AA0E7B;
 }
 
+#submit {
+  background: #fd5c63;
+  color: #fff;
+  font-size: 20px;
+  padding: 12px 30px;
+  display: initial;
+  border-radius: 30px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  left: 40%;
+}
+
+#submit:hover {
+  background: #AA0E7B;
+}
 
 #small-dialog,#small-dialog2{
 	background: #fd5c63;
 	text-align: left;
-	max-width: 400px;
+	max-width: 500px;
 	margin: 40px auto;
 	position: relative;
 }
@@ -113,7 +135,7 @@ input[type="email"] {
     background: #4CAF50;
 	padding-right: 4em;
     outline: none;
-    width: 71%;
+    width: 100%;
 	margin-bottom:20px;
     vertical-align: middle;
     font-family: 'Open Sans', sans-serif;
